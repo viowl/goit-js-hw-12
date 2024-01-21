@@ -9,8 +9,6 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: #360033;
-  background: -webkit-linear-gradient(to right, #0b8793, #360033);
-  background: linear-gradient(to right, #0b8793, #360033);
   color: #fff;
   padding: 1.5rem 2rem 4rem 2rem;
 }
@@ -26,6 +24,10 @@ body {
   border: 0.1rem solid #fff;
   border-radius: 2rem;
   transition: border-color 250ms ease;
+}
+
+.form {
+  text-align: center;
 }
 
 .search-input:focus {
