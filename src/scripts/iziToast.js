@@ -1,12 +1,11 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-export default function showMessage() {
+export default function showMessage(message) {
   iziToast.show({
     close: false,
     closeOnClick: true,
-    message:
-      'Sorry, there are no images matching your search query. Please try again!',
+    message,
     messageColor: 'white',
     timeout: 3000,
     transitionIn: 'flipInX',
